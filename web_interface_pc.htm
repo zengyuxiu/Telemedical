@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Telemedicine</title>
+<style>
+*{margin:0;padding:0;}
+#herder{
+    height:100;
+    background:#8DB0D3;
+}
+.main-left{
+    width:75%;
+    height:500px;
+    background:#73A4D3;
+    float:left;
+}
+.main-right{
+    width:25%;
+    height:500px;
+    background:#73A4D3;
+    float:right;
+}
+#footer{
+    clear:both;
+    height:20px;
+    background:#8DB0D3;
+}
+</style>
+</head>
+
+<body bgcolor="#8DB0D3">
+
+<div id="herder">
+<br />
+<font size="20" >
+ &nbsp&nbsp Telemedicine
+</font>
+</div>
+<div class="main-left">
+<div id="Remote" align="center">
+<embed id="Remote"  type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" width="640" height="480"
+	 toolbar="false" volume="150"
+     target="http://192.168.2.167:8090/Raspberry.rtsp" ></embed>
+</div>
+</div>
+<div class="main-right">
+<div id="l10n" align="center">
+<embed id="vlcl10n"  type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" width="240" height="180"
+	 toolbar="false" mute="true"
+     target="http://192.168.2.167:8090/Pc.rtsp" ></embed>
+</div>
+</div>
+<div id="footer" align="right">©2018 Yuxiu Zeng&nbsp&nbsp</div>
+</body>
+</html>
