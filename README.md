@@ -4,14 +4,14 @@
 --------------------------------------------------------------------------
 ![image](https://github.com/zengyuxiu/Telemedical/blob/master/pic/structure.png)
 ## 环境要求
-PC
->>FFmpeg 3.4
->>browser-plugin-vlc
->>firefox-esr 
-树莓派
->>FFmpeg 3.4(支持 h264_omx 硬件解码)
->>browser-plugin-vlc
->>firefox-esr 
+####PC
+FFmpeg3.4
+browser-plugin-vlc
+firefox-esr 
+####树莓派
+FFmpeg 3.4(支持 h264_omx 硬件解码)
+browser-plugin-vlc
+firefox-esr 
 ## 使用方法
 在树莓派上<br>
 ```Bash
