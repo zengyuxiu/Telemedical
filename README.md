@@ -27,5 +27,5 @@ chmod +x Telemedical_Pc.sh
 #### 在树莓派上浏览器打开 web_interface_raspberry.htm
 #### 在PC上浏览器打开 web_interface_pc.htm
 ## 改进方向
->使用FFmpeg的api重构后端
->使用flv.js+H5作为前端播放器
+>* 使用FFmpeg的api重构后端<br>
+>* 使用flv.js+H5作为前端播放器
