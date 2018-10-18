@@ -4,24 +4,24 @@
 --------------------------------------------------------------------------
 ![image](https://github.com/zengyuxiu/Telemedical/blob/master/pic/structure.png)
 ## 环境要求
-####PC
+#### PC
 FFmpeg3.4
 browser-plugin-vlc
 firefox-esr 
-####树莓派
+#### 树莓派
 FFmpeg 3.4(支持 h264_omx 硬件解码)
 browser-plugin-vlc
 firefox-esr 
 ## 使用方法
-在树莓派上<br>
+####在树莓派上<br>
 ```Bash
 chmod +x Telemedical_server.sh
 ./Telemedicine_server.sh
 --------------------------------------------------------------------------
-在PC上<br>
+####在PC上<br>
 ```Bash
 chmod +x Telemedical_Pc.sh
 ./Telemedicine_Pc.sh
 --------------------------------------------------------------------------
-在树莓派上浏览器打开 web_interface_raspberry.htm
-在PC上浏览器打开 web_interface_pc.htm
+#### 在树莓派上浏览器打开 web_interface_raspberry.htm
+#### 在PC上浏览器打开 web_interface_pc.htm
