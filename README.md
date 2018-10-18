@@ -3,3 +3,7 @@
 ## 结构
 --------------------------------------------------------------------------
 ![image](https://github.com/zengyuxiu/Telemedical/blob/master/pic/structure.png)
+## 使用方法
+--------------------------------------------------------------------------
+```Bash
+chmod +x Telemedical_Pc.sh
